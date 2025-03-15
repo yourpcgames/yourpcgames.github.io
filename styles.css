@@ -1,7 +1,7 @@
 /* General Styling */
 body {
     font-family: Arial, sans-serif;
-    background: #1c1c1c;
+    background-color: #111; /* Set the website's dark theme */
     color: white;
     margin: 0;
     padding: 0;
