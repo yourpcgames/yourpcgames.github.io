@@ -119,6 +119,16 @@ header h1 {
     color: white; /* Ensure text is visible */
     border-radius: 8px; /* Optional: Add rounded corners */
 }
+.game-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #444; /* Darker border */
+    padding: 15px;
+    background-color: #181818 !important; /* Force dark background */
+    color: white !important; /* Ensure text remains visible */
+    border-radius: 8px;
+}
 
 
 .game-box img {
