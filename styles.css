@@ -131,12 +131,14 @@ header h1 {
 }
 
 
-.game-img {
-    width: 50px;  /* Adjust based on your design */
-    height: auto;  /* Maintain aspect ratio */
-    object-fit: cover; /* Ensure it fills the space properly */
-    border-radius: 5px; /* Optional: rounded corners */
+.game-box img {
+    width: 100%; /* Ensures the image fills the box */
+    height: auto; /* Maintains aspect ratio */
+    max-width: 300px; /* Adjust as needed */
+    max-height: 180px; /* Adjust as needed */
+    object-fit: cover; /* Ensures the image fills the space without distortion */
 }
+
 
 
 .game-box h2 {
