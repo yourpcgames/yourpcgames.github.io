@@ -110,13 +110,16 @@ header h1 {
 }
 
 .game-box {
-    width: 100%; /* Make each game take full width */
+    width: 100%;
     display: flex;
     align-items: center;
     border: 1px solid #ccc;
     padding: 15px;
-    background-color: #fff;
+    background-color: #222; /* Change back to dark background */
+    color: white; /* Ensure text is visible */
+    border-radius: 8px; /* Optional: Add rounded corners */
 }
+
 
 .game-box img {
     width: 150px; /* Adjust the image size */
