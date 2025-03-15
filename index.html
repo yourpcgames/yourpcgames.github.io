@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Games - Download Now</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <div class="welcome-banner">
+        <h1>🎮 Welcome to Salman Syed Creations</h1>
+    </div>
+
+    <header>
+        <h1>Welcome to My Game Store</h1>
+        <input type="text" id="searchBox" placeholder="🔍 Search for games..." onkeyup="searchGame()">
+    </header>
+
+    <div class="container">
+        <!-- Sidebar with categories -->
+        <aside class="sidebar">
+            <h2>🎮 Game Categories</h2>
+            <ul class="category-list">
+                <li><a href="#" onclick="filterCategory('action')">🔥 Action</a></li>
+                <li><a href="#" onclick="filterCategory('sports')">⚽ Sports</a></li>
+                <li><a href="#" onclick="filterCategory('rpg')">🧙 RPG</a></li>
+                <li><a href="#" onclick="filterCategory('adventure')">🌍 Adventure</a></li>
+                <li><a href="#" onclick="filterCategory('racing')">🏎️ Racing</a></li>
+                <li><a href="#" onclick="filterCategory('puzzle')">🧩 Puzzle</a></li>
+            </ul>
+        </aside>
+
+        <!-- Main Content (Games List) -->
+        <main>
+            <div class="game-list">
+                <div class="game-item" data-title="soccer craze 25 sports">
+                    <h2>⚽ Soccer Craze 25</h2>
+                    <img src="screenshot1.jpg" alt="Game Screenshot">
+                    <p>Experience the thrill of football! Download now.</p>
+                    <a href="https://apkadmin.com/kool81emqb42/SOCCER_CRAZE_25.zip.html" class="download-btn">Download Now</a>
+                </div>
+
+                <div class="game-item" data-title="racing madness racing">
+                    <h2>🏎️ Racing Madness</h2>
+                    <img src="screenshot2.jpg" alt="Game Screenshot">
+                    <p>Speed, thrill, and high-octane action await!</p>
+                    <a href="#" class="download-btn">Download Now</a>
+                </div>
+
+                <div class="game-item" data-title="battle strike action">
+                    <h2>🔫 Battle Strike</h2>
+                    <img src="screenshot3.jpg" alt="Game Screenshot">
+                    <p>Engage in intense first-person shooting battles.</p>
+                    <a href="#" class="download-btn">Download Now</a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>© 2025 Salman Syed Creations | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
