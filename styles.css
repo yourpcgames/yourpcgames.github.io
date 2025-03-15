@@ -103,28 +103,45 @@ header h1 {
     background-color: #b8860b; /* Darker gold on hover */
     color: white;
 }
-
-/* Game List */
 .game-list {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-    padding: 20px;
+    flex-direction: column; /* Stack items vertically */
+    gap: 20px; /* Space between games */
 }
 
-.game-item {
-    background: #222;
+.game-box {
+    width: 100%; /* Make each game take full width */
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
     padding: 15px;
-    border-radius: 8px;
-    text-align: center;
-    width: 250px;
+    background-color: #fff;
 }
 
-.game-item img {
-    width: 100%;
-    border-radius: 5px;
+.game-box img {
+    width: 150px; /* Adjust the image size */
+    height: auto;
+    margin-right: 15px;
 }
+
+.game-box h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.view-details-btn {
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: auto;
+}
+
+.view-details-btn:hover {
+    background-color: #218838;
+}
+
 
 .view-details-btn, .download-btn {
     display: inline-block;
