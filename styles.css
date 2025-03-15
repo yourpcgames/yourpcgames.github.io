@@ -132,7 +132,7 @@ header h1 {
 
 
 .game-img {
-    width: 150px;  /* Adjust based on your design */
+    width: 50px;  /* Adjust based on your design */
     height: auto;  /* Maintain aspect ratio */
     object-fit: cover; /* Ensure it fills the space properly */
     border-radius: 5px; /* Optional: rounded corners */
