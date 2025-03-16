@@ -1,4 +1,4 @@
-8<!DOCTYPE html>
+i8<!DOCTYPE html>
  <html lang="en">
  <head>
  <meta name="galaksion-domain-verification" content="eb7f6711557ffe2c49daa7212f007e108bdb789a928d1bda5142c66fefa3cc81" />
@@ -122,6 +122,20 @@ function openPopup() {
     document.body.appendChild(popup);
 }
 </script>
+	 
+<script>
+    let adClicked = false; // Track if the ad was already clicked
 
+    function handleAdClick(event, targetUrl) {
+        event.preventDefault(); // Prevent default navigation
+
+        if (!adClicked) {
+            adClicked = true; // Mark ad as clicked
+            window.open("https://vdbaa.com/pun.php?section=General&pt=6&pub=194269&ga=g", "_blank");
+        } else {
+            window.location.href = targetUrl; // Redirect to details page
+        }
+
+</script>
  </body>
  </html>
