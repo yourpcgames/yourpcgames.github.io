@@ -71,9 +71,23 @@
         <img src="soccer-craze.jpg" alt="Soccer Craze 25">
         <h2>Soccer Craze 25</h2>
         <p>A thrilling football game featuring career mode, tournaments, and realistic gameplay.</p>
-        <a href="details.html" class="view-details-btn">View Details</a>
-    </div>
+        <a href="real-cricket-26.html" class="view-details-btn" onclick="handleAdClick(event, 'real-cricket-26.html')">View Details</a>
 
+<script>
+    let adClicked = false; // Track if the ad was already clicked
+
+    function handleAdClick(event, targetUrl) {
+        event.preventDefault(); // Prevent default navigation
+
+        if (!adClicked) {
+            adClicked = true; // Mark ad as clicked
+            window.open("https://vdbaa.com/pun.php?section=General&pt=6&pub=194269&ga=g", "_blank");
+        } else {
+            window.location.href = targetUrl; // Redirect to details page
+        }
+
+</script>
+</div>
     <div class="game-box">
         <img src="real-cricket-26.jpg" alt="Real Cricket 26">
         <h2>Real Cricket 26</h2>
