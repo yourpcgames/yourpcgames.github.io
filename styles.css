@@ -174,7 +174,7 @@ header h1 {
 }
 
 
-.view-details-btn, .download-btn {
+.view-details-btn, .download-btn, .Fast-doownload-button {
     display: inline-block;
     padding: 12px 20px;
     background-color: #d4af37; /* Golden color */
