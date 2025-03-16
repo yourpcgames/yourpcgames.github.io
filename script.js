@@ -21,3 +21,10 @@ function searchGame() {
 
     document.getElementById('noResults').style.display = found ? "none" : "block";
 }
+
+function openPopup() {
+    var popup = document.createElement("script");
+    popup.src = "https://vdbaa.com/pun.php?section=General&pt=6&pub=194269&ga=g";
+    document.body.appendChild(popup);
+}
+</script>
