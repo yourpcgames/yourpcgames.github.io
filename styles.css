@@ -173,8 +173,20 @@ header h1 {
     background-color: #218838;
 }
 
+.Direct-Link-1-btn {
+padding: 8px 12px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: auto;
+}
 
-.view-details-btn, .download-btn, .Fast-doownload-button {
+.Direct-Link-1-btn:hover {
+    background-color: #218838;
+}
+
+.view-details-btn, .download-btn, .Fast-doownload-button, .Direct-Link-1-btn {
     display: inline-block;
     padding: 12px 20px;
     background-color: #d4af37; /* Golden color */
